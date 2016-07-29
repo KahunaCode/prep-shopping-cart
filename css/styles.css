@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/*background-color:#f2f0f0;*/
+	background-color: #FF859B;
+	font-family: "Arimo", sans-serif;
+}
+
+#container{
+	margin: 25px auto;
+	width: 1200px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: -5px 0px 32px -1px rgba(66,56,63,1);
+	-moz-box-shadow: -5px 0px 32px -1px rgba(66,56,63,1);
+	box-shadow: -5px 0px 32px -1px rgba(66,56,63,1);
+	border-radius: 15px;
+}
+
+#header{
+	width: 100%;
+	background-color: #F06291;
+	padding: 15px;
+	background-image: url(img/shopping-cart.png);
+	background-size: 50px 50px;
+    background-repeat: no-repeat;
+   	border-top-left-radius: 14px;
+   	border-top-right-radius: 14px;
+
+}
+
+#logo{float: right;}
+#title{float: left;}
+
+h1{
+	font-family: "Pacifico", cursive;
+	color: #FFFFFF;
+}
+
+#cart{
+	margin: 25px;
+	padding-bottom: 25px;
+	clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+.eachItem{
+	border-top: 1px dotted black;
+	clear: both;
+	padding-top: 5px;
+}
+
+.eachItem:first-child{
+	border-top: 2px solid black;
+}
+
+/*.eachItem:nth-last-child(1){
+	border-bottom: 1px solid black;
+}*/
+
+.eachImg{
+	float: left;
+	width:50px;
+	height:50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+img {
+	width:50px;
+	height:50px;	
+}
+
+.eachQuantity{
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: pink;
+}
+
+.left{
+	float: left;
+	height: 50px;
+	width: 750px;
+}
+
+.theNames{
+	font-size: 1.5em;
+}
+
+.theDescriptions{
+	font-style: italic;
+	font-size: 0.9em;	
+}
+
+.eachPrice{
+	float: right;
+	width:75px;
+	height:50px;
+	text-align: right;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+#subtotal{
+	border-top: 2px solid black;
+	clear: both;
+	padding-top: 15px;
+}
+
+#sub-left{
+	float: left;
+}
+
+#sub-right{
+	float: right;
+}
+
+.theSubtotal{
+	padding-left: 60px;
+	color: #FF139B;
+}
+
+.theSubtotalNumber{
+	text-align: right;
+	font-weight: bold;
+	color: #FF139B;
+}
